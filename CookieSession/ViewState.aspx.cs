@@ -22,7 +22,7 @@ namespace CookieSession
         protected void btnShow_Click(object sender, EventArgs e)
         {
             var a = ViewState["a"];
-            string d; 
+            string me;
             labShow.Text = a.ToString();  
         }
     }
