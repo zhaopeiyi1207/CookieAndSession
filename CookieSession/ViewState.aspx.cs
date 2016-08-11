@@ -22,7 +22,8 @@ namespace CookieSession
         protected void btnShow_Click(object sender, EventArgs e)
         {
             var a = ViewState["a"];
-            labShow.Text = a.ToString();
+            string b;
+            labShow.Text = a.ToString();  
         }
     }
 }
