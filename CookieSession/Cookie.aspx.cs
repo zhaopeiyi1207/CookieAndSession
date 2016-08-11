@@ -24,7 +24,7 @@ namespace CookieSession
             cookie.Values.Add("userid2", "userid2_value2");
             Response.AppendCookie(cookie);
         }
-
+         
         protected void btnGet_Click(object sender, EventArgs e)
         {
             // HttpCookie cokie = new HttpCookie("MyCook");//初使化
